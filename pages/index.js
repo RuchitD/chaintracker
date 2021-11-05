@@ -71,7 +71,7 @@ export default function App() {
         <p>Ethereum is ${bitfinex.ETH.USD} on Bitfinex</p>
       </div>
       <h1>Buy Ethereum on {coinbase.ETH.USD < bitfinex.ETH.USD ? 'Coinbase' : 'Bitfinex'}</h1>
-      <p class="text-center">Refreshes in {nextRefreshCounter}</p> 
+      <p className="text-center">Refreshes in {nextRefreshCounter}</p> 
     </div>
   
  /*  <Container fluid>
