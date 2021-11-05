@@ -74,21 +74,7 @@ export default function App() {
       <p className="text-center">Refreshes in {nextRefreshCounter}</p> 
     </div>
   
- /*  <Container fluid>
-  <Row bg="dark">
-    <Col class="d-inline-flex justify-content-center"><div class="p-3 mb-2 bg-primary text-white text-center " ><p> Bitcoin is ${coinbase.BTC.USD} on Coinbase</p></div></Col>
-  </Row>
-  <Col class="d-inline-flex  justify-content-center"><div class="p-3 mb-2 bg-primary text-white text-center"><p> Ethereum is ${coinbase.ETH.USD} on Coinbase</p></div></Col>
-  <p class="text-center"><h1>Sell Bitcoin on {coinbase.BTC.USD > bitfinex.BTC.USD ? 'Coinbase' : 'Bitfinex'}</h1></p>
-  <Row>
-    <Col><div class="p-3 mb-2 bg-primary text-white text-center"><p>Bitcoin is ${bitfinex.BTC.USD} on Bitfinex</p></div></Col>
-  </Row>
-  <Col><div class="p-3 mb-2 bg-primary text-white text-center"><p>Ethereum is ${bitfinex.ETH.USD} on Bitfinex</p></div></Col>
-  <p class="text-center"><h1>Buy Ethereum on {coinbase.ETH.USD < bitfinex.ETH.USD ? 'Coinbase' : 'Bitfinex'}</h1></p>
- </Container> */
-  
- 
-  /*</div>*/
+
   
   
   )
